@@ -32,7 +32,31 @@ http://localhost/api/products.php?id=4
 
 
 # INSERT (สร้างใหม่)
-POST /api/appliances
+POST /api/products.php
+
+<img width="833" height="414" alt="image" src="https://github.com/user-attachments/assets/159a07b1-6ebe-4db5-a9bc-a6ec5286167c" />
+
+
+# เพิ่มข้อมูลใน Body raw
+Request Body (JSON)
+{
+  "name": "Airpod Pro",
+  "description": "หูงฟังตัดเสียงรบกวน ของ Apple",
+  "price": 4500,
+  "category": "Headphones",
+  "stock": 5,
+  "image_url": "https://example.com/airpod.jpg"
+}
+
+<img width="832" height="395" alt="image" src="https://github.com/user-attachments/assets/cbe515e1-f11f-4521-befc-a60c742005b8" />
+
+# ผลลัพธ์ สินค้า airpod ที่เพิ่มมาให้ จะอยู่ใน id 21
+http://localhost/api/products.php?id=21
+<img width="444" height="990" alt="image" src="https://github.com/user-attachments/assets/738912e2-aa23-4bb3-90ec-9d1bb648e779" />
+<img width="428" height="274" alt="image" src="https://github.com/user-attachments/assets/7afb8731-a0bc-4193-8edb-037a16b837cb" />
+
+
+
 
 # UPDATE (แก้ไข)
 PUT/PATCH /api/appliances/{id}
