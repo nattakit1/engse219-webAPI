@@ -86,3 +86,5 @@ http://localhost/api/products.php?id=3
 
 # ค่าจะกลายเป็น Null
 
+# ฐานข้อมูลหลังอัพเดท
+<img width="1179" height="809" alt="image" src="https://github.com/user-attachments/assets/e6ef6a46-ad1b-4b38-a44f-a7a92a8b450d" />
