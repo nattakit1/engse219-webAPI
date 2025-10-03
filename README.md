@@ -52,6 +52,7 @@ Request Body (JSON)
 
 # ผลลัพธ์ สินค้า airpod ที่เพิ่มมาให้ จะอยู่ใน id 21
 http://localhost/api/products.php?id=21
+
 <img width="444" height="990" alt="image" src="https://github.com/user-attachments/assets/738912e2-aa23-4bb3-90ec-9d1bb648e779" />
 <img width="428" height="274" alt="image" src="https://github.com/user-attachments/assets/7afb8731-a0bc-4193-8edb-037a16b837cb" />
 
@@ -59,7 +60,28 @@ http://localhost/api/products.php?id=21
 
 
 # UPDATE (แก้ไข)
-PUT/PATCH /api/appliances/{id}
+PUT/PATCH /api/products.php?id=2
+
+http://localhost/api/products.php?id=2
+
+<img width="424" height="286" alt="image" src="https://github.com/user-attachments/assets/a1312ff5-44ca-44bc-913f-6c27dbf1d209" />
+
+---
+<img width="833" height="457" alt="image" src="https://github.com/user-attachments/assets/b2effb42-ac81-493c-ad9b-c1848b2f448c" />
+<img width="392" height="272" alt="image" src="https://github.com/user-attachments/assets/eb3984c4-9d50-4291-b06d-8647c6551bba" />
+
+
 
 # DELETE (ลบ)
-DELETE /api/appliances/{id}
+DELETE /api/products.php?id=3
+
+http://localhost/api/products.php?id=3
+
+<img width="407" height="293" alt="image" src="https://github.com/user-attachments/assets/53b167e7-2064-4384-9649-b4e9eb686ae2" />
+
+<img width="828" height="384" alt="image" src="https://github.com/user-attachments/assets/f66b580c-bad1-4387-9ddd-4953796ac003" />
+
+<img width="404" height="147" alt="image" src="https://github.com/user-attachments/assets/e45501b8-45eb-423f-a6dd-08b0727ec811" />
+
+# ค่าจะกลายเป็น Null
+# 67543210055-9 ณัฐกิตต์ แก้วคำยศ
